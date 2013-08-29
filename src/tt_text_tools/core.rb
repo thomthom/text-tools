@@ -28,7 +28,7 @@ module TT::Plugins::TextTools
     prompts = ['Search: ', 'Replace: ']
     input = UI.inputbox( prompts, [], 'Search and Replace Text' )
 
-    return if input.nil?
+    return unless input
 
     from, to = input
 
