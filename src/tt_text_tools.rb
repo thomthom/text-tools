@@ -19,10 +19,10 @@ module TT
   # Plugin information
   PLUGIN_ID       = 'TT_TextTools'.freeze
   PLUGIN_NAME     = 'Text Tools'.freeze
-  PLUGIN_VERSION  = '1.0.1'.freeze
+  PLUGIN_VERSION  = '1.0.2'.freeze
 
   # Resource paths
-  FILENAMESPACE = File.basename( __FILE__, '.rb' )
+  FILENAMESPACE = File.basename( __FILE__, '.*' )
   PATH_ROOT     = File.dirname( __FILE__ ).freeze
   PATH          = File.join( PATH_ROOT, FILENAMESPACE ).freeze
 

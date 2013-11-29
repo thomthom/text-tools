@@ -18,7 +18,7 @@ module TT::Plugins::TextTools
   unless file_loaded?( __FILE__ )
     # Menus
     m = TT.menu( 'Plugins' )
-    m.add_item( 'Search and Replace Text…' ) { self.search_and_replace }
+    m.add_item( 'Search and Replace Textâ€¦' ) { self.search_and_replace }
   end
 
 
